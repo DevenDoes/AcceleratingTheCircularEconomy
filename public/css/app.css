@@ -162,6 +162,10 @@ https://flickity.metafizzy.co
   background-color: #F2F2F2;
 }
 
+.bg-darker {
+  background-color: #504E4D;
+}
+
 /**
 * -----------------------------------------------------------
 * Text Color Helpers
@@ -177,6 +181,10 @@ https://flickity.metafizzy.co
 }
 
 .text-dark {
+  color: #262322;
+}
+
+.text-dark-secondary {
   color: #504E4D;
 }
 
@@ -251,8 +259,8 @@ https://flickity.metafizzy.co
 **/
 
 .wrapper {
-  margin-right: 8rem;
-  margin-left: 8rem;
+  margin-right: 10rem;
+  margin-left: 10rem;
 }
 
 /**
@@ -283,7 +291,7 @@ https://flickity.metafizzy.co
   position: absolute;
   bottom: -8px;
   height: 8px;
-  width: 100vw;
+  width: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(#B196D7), to(#B993D6));
   background: linear-gradient(180deg, #B196D7 0%, #B993D6 100%);
   border-bottom-left-radius: 40%;
@@ -307,7 +315,7 @@ https://flickity.metafizzy.co
   position: absolute;
   bottom: -8px;
   height: 8px;
-  width: 100vw;
+  width: 100%;
   background-color: inherit;
   border-bottom-left-radius: 40%;
   border-bottom-right-radius: 40%;

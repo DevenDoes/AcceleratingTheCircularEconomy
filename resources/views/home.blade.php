@@ -48,7 +48,7 @@
 <div class="section bg-white py-20">
     <div class="wrapper">
         <h3 class="text-primary font-text-medium text-center mb-10">Our Speakers & Panelists</h3>
-        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "freescroll": true, "wrapAround": true, "autoPlay": true }'>
+        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "freescroll": true, "wrapAround": true }'>
             <div class="carousel-cell w-1/5 mb-5">
                 <div class="bg-dark rounded mx-5 shadow-lg">
                     <img class="rounded-t w-full" src="/images/Sean-Wilson.jpg" alt="Portrait of Sean Wilson">
@@ -197,6 +197,7 @@
         </div>
     </div>
 </div>
+
 <div class="section bg-dark py-20">
 
     <div class="wrapper">
@@ -249,6 +250,7 @@
     </div>
 
 </div>
+
 <div class="section bg-white py-20">
 
     <div class="wrapper">
