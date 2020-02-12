@@ -22,3 +22,11 @@ Route::get('/home', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/schedule', function() {
+    return view('schedule');
+});
+
+Route::get('/pastevents', function () {
+    return view('pastEvents');
+});

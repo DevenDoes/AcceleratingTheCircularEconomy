@@ -45,6 +45,8 @@
 
 @section('content')
 
+<!--
+
 <div class="section bg-white py-20">
     <div class="wrapper">
         <h3 class="text-primary font-text-medium text-center mb-10">Our Speakers & Panelists</h3>
@@ -197,6 +199,8 @@
         </div>
     </div>
 </div>
+
+-->
 
 <div class="section bg-dark py-20">
 

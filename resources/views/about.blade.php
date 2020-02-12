@@ -196,13 +196,11 @@
             <div class="flex flex-col w-1/2 pr-5 pb-5">
             
                 <div class="bg-dark rounded-t shadow-md">
-                    <p class="text-dark font-text-medium p-5">I can only stay for part of Circularity 20. Can I share my
-                        registration with a
-                        colleague?</p>
+                    <p class="text-dark font-text-medium p-5">How do I register?</p>
                 </div>
             
                 <div class="bg-darker rounded-b p-5 shadow-md">
-                    <p class="text-light font-text-regular text-sm">No, one registration may not be shared by multiple people.</p>
+                    <p class="text-light font-text-regular text-sm">Registration will open in May 2020.</p>
                 </div>
             
             </div>
@@ -210,7 +208,7 @@
             <div class="flex flex-col w-1/2 pl-5 pb-5">
             
                 <div class="bg-dark rounded-t shadow-md">
-                    <p class="text-dark font-text-medium p-5">Are there opportunities to volunteer at the event?</p>
+                    <p class="text-dark font-text-medium p-5">I can only stay for part of Circularity 20. Can I share my registration with a colleague?</p>
                 </div>
                 
                 <div class="bg-darker rounded-b p-5 shadow-md">
@@ -222,11 +220,12 @@
             <div class="flex flex-col w-1/2 pr-5 pt-5">
             
                 <div class="bg-dark rounded-t shadow-md">
-                    <p class="text-dark font-text-medium p-5">What is the refund policy for the forum?</p>
+                    <p class="text-dark font-text-medium p-5">Are there opportunities to volunteer at the event?</p>
                 </div>
                 
                 <div class="bg-darker rounded-b p-5 shadow-md">
-                    <p class="text-light font-text-regular text-sm">No, one registration may not be shared by multiple people.</p>
+                    <p class="text-light font-text-regular text-sm">Yes. We offer a limited number of volunteer positions to graduate and undergraduate students. Volunteer application will
+                    be posted in early 2020.</p>
                 </div>
             
             </div>
@@ -234,11 +233,13 @@
             <div class="flex flex-col w-1/2 pl-5 pt-5">
             
                 <div class="bg-dark rounded-t shadow-md">
-                    <p class="text-dark font-text-medium p-5">This is filler text posing as a question?</p>
+                    <p class="text-dark font-text-medium p-5">What is the refund policy for the forum?</p>
                 </div>
             
                 <div class="bg-darker rounded-b p-5 shadow-md">
-                    <p class="text-light font-text-regular text-sm">No, one registration may not be shared by multiple people.</p>
+                    <p class="text-light font-text-regular text-sm">Registration for the forum is non-refundable. However, if you register but are unable to attend, we are happy to
+                    transfer your registration to a colleague or apply the amount you paid to a future Accelerating the Circular Economy
+                    event. Please contact epetaunc@gmail.com if you need to cancel or transfer your registration.</p>
                 </div>
             
             </div>

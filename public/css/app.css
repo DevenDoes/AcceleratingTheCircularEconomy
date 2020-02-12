@@ -356,3 +356,19 @@ https://flickity.metafizzy.co
 .flickity-page-dots {
   display: none;
 }
+
+.fill {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
