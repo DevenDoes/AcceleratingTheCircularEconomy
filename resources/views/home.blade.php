@@ -7,17 +7,24 @@
         <div class="flex-initial">
             <ul>
                 <li class="inline-block mx-2">
-                    <a href="#" class="text-white hover:underline font-text-medium">About Us</a>
+                    <a href="/about" class="text-white hover:underline font-text-medium">About Us</a>
                 </li>
+                <!--
                 <li class="inline-block mx-2">
                     <a href="#" class="text-white hover:underline font-text-medium">Schedule</a>
                 </li>
+                -->
                 <li class="inline-block mx-2">
-                    <a href="#" class="text-white hover:underline font-text-medium">Past Events</a>
+                    <a href="/pastevents" class="text-white hover:underline font-text-medium">Past Events</a>
                 </li>
                 <li class="inline-block mx-2">
-                    <a href="#" class="text-white hover:underline font-text-medium">Contact Us</a>
+                    <a href="/contact" class="text-white hover:underline font-text-medium">Contact Us</a>
                 </li>
+                <!--
+                <li class="inline-block mr-2 ml-4">
+                    <a href="#" class="text-white hover:bg-green-400 bg-primary py-2 px-4 rounded shadow-md font-text-regular">Register Now</a>
+                </li>
+                -->
             </ul>
         </div>
     </div>
@@ -34,9 +41,9 @@
     </div>
     <div class="wrapper flex justify-center">
         <a href="#"
-            class="text-white hover:bg-green-400 bg-primary py-2 px-6 mx-2 rounded shadow-lg font-text-regular">Register
-            Now</a>
-        <a href="#"
+            class="text-white hover:bg-green-400 bg-primary py-2 px-6 mx-2 rounded shadow-lg font-text-regular cursor-not-allowed">Register
+            Soon</a>
+        <a href="/about"
             class="text-dark hover:bg-gray-200 bg-dark py-2 px-6 mx-2 rounded shadow-lg font-text-regular">Discover
             More</a>
     </div>
@@ -214,23 +221,23 @@
                 data-flickity='{ "cellAlign": "left", "wrapAround": true, "autoPlay": true, "setGallerySize": true}'>
 
                 <div class="carousel-cell w-full">
-                    <img class="object-cover h-128 w-full shadow-lg" src="{{ asset('images/Venue-1.jpg') }}" alt="">
+                    <img class="object-cover h-128 w-full shadow-lg rounded" src="{{ asset('images/Venue-1.jpg') }}" alt="">
                 </div>
 
                 <div class="carousel-cell w-full">
-                    <img class="object-cover h-128 w-full shadow-lg" src="{{ asset('images/Venue-2.jpg') }}" alt="">
+                    <img class="object-cover h-128 w-full shadow-lg rounded" src="{{ asset('images/Venue-2.jpg') }}" alt="">
                 </div>
 
                 <div class="carousel-cell w-full">
-                    <img class="object-cover h-128 w-full shadow-lg" src="{{ asset('images/Venue-3.jpg') }}" alt="">
+                    <img class="object-cover h-128 w-full shadow-lg rounded" src="{{ asset('images/Venue-3.jpg') }}" alt="">
                 </div>
 
                 <div class="carousel-cell w-full">
-                    <img class="object-cover h-128 w-full shadow-lg" src="{{ asset('images/Venue-4.jpg') }}" alt="">
+                    <img class="object-cover h-128 w-full shadow-lg rounded" src="{{ asset('images/Venue-4.jpg') }}" alt="">
                 </div>
 
                 <div class="carousel-cell w-full">
-                    <img class="object-cover h-128 w-full shadow-lg" src="{{ asset('images/Venue-5.jpg') }}" alt="">
+                    <img class="object-cover h-128 w-full shadow-lg rounded" src="{{ asset('images/Venue-5.jpg') }}" alt="">
                 </div>
 
             </div>
@@ -243,9 +250,11 @@
                         frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 </div>
 
-                <button
-                    class="text-center text-white font-text-regular bg-primary hover:bg-green-400 rounded shadow-lg py-2">Explore
-                    The Schedule</button>
+                <!--
+                <button class="text-center text-white font-text-regular bg-primary hover:bg-green-400 rounded shadow-lg py-2">Explore The Schedule</button>
+                -->
+
+                <button class="text-center text-white font-text-regular bg-primary hover:bg-green-400 rounded shadow-lg py-2 cursor-not-allowed">Schedule Coming Soon</button>
 
             </div>
 
