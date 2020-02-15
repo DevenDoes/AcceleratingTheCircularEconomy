@@ -2,8 +2,7 @@
 
 @section('header')
 <div class="header pt-10 pb-20">
-    <div class="wrapper flex mb-10">
-        <div class="flex-1"></div>
+    <div class="wrapper flex justify-center xl:justify-end mb-5 xl:mb-10">
         <div class="flex-initial">
             <ul>
                 <li class="inline-block mx-2">
@@ -29,11 +28,11 @@
         </div>
     </div>
     <div class="wrapper mb-10">
-        <h1 class="text-center text-white text-5xl font-display-medium shadow-t-md">Accelerating The Circular Economy
+        <h1 class="text-center text-white text-3xl xl:text-5xl font-display-medium shadow-t-md mb-5 xl:mb-0">Accelerating The Circular Economy
         </h1>
-        <h2 class="text-center text-white font-light text-xl font-display-regular shadow-t-md mb-10">a radically
+        <h2 class="text-center text-white font-light text-md xl:text-xl font-display-regular shadow-t-md mb-10">a radically
             different way of doing business</h2>
-        <p class="text-center text-white font-light font-text-regular w-1/2 mx-auto mb-10">We live in a predominately
+        <p class="text-center text-white font-light font-text-regular w-full xl:w-1/2 mx-auto mb-10">We live in a predominately
             linear world, meaning that we ‘take, make, and dispose’ items that will ultimately end up in a landfill or
             incinerator. But, disrupting the status quo is a new movement called the circular economy. In a circular
             world we look to bend linear systems in order to better leverage our resources, promoting sustainable
@@ -41,10 +40,10 @@
     </div>
     <div class="wrapper flex justify-center">
         <a href="#"
-            class="text-white hover:bg-green-400 bg-primary py-2 px-6 mx-2 rounded shadow-lg font-text-regular cursor-not-allowed">Register
+            class="text-white hover:bg-green-400 bg-primary py-2 px-3 xl:px-6 mx-2 rounded shadow-lg font-text-regular cursor-not-allowed">Register
             Soon</a>
         <a href="/about"
-            class="text-dark hover:bg-gray-200 bg-dark py-2 px-6 mx-2 rounded shadow-lg font-text-regular">Discover
+            class="text-dark hover:bg-gray-200 bg-dark py-2 px-3 xl:px-6 mx-2 rounded shadow-lg font-text-regular">Discover
             More</a>
     </div>
 </div>
@@ -215,13 +214,13 @@
 
         <h3 class="text-primary font-text-medium text-center mb-10">Our Venue</h3>
 
-        <div class="flex items-stretch h-auto">
+        <div class="block xl:flex items-stretch h-auto">
 
-            <div class="main-carousel w-3/5 h-128 mr-5 shadow-lg"
+            <div class="main-carousel mb-5 xl:mb-0 xl:w-3/5 h-128 xl:mr-5 shadow-lg"
                 data-flickity='{ "cellAlign": "left", "wrapAround": true, "autoPlay": true, "setGallerySize": true}'>
 
                 <div class="carousel-cell w-full">
-                    <img class="object-cover h-128 w-full shadow-lg rounded" src="{{ asset('images/Venue-1.jpg') }}" alt="">
+                    <img class="object-cover h-128 shadow-lg rounded" src="{{ asset('images/Venue-1.jpg') }}" alt="">
                 </div>
 
                 <div class="carousel-cell w-full">
@@ -242,7 +241,7 @@
 
             </div>
 
-            <div class="flex flex-col w-2/5 h-128 ml-5">
+            <div class="flex flex-col xl:w-2/5 h-128 xl:h-128 xl:ml-5">
 
                 <div class="mb-5 shadow-lg flex-auto">
                     <iframe class="w-full h-full"
@@ -272,17 +271,17 @@
 
         <div class="flex flex-wrap justify-center h-auto">
 
-            <div class="w-1/2 h-48 pr-5 mb-5">
+            <div class="xl:w-1/2 xl:h-48 xl:pr-5 mb-5">
 
-                <div class="flex">
+                <div class="flex flex-col xl:flex-row">
 
-                    <div class="flex-none w-48">
+                    <div class="self-center xl:flex-none w-48 mb-5 xl:mb-0">
                         <img class="w-full object-contain" src="{{ asset('images/UNC-IFTE.png') }}" alt="">
                     </div>
 
-                    <div class="self-center ml-5">
-                        <p class="text-primary font-text-medium">UNC Institute for the Environment</p>
-                        <p class="text-dark font-text-regular text-sm mb-4">The UNC Institute for the Environment
+                    <div class="self-center xl:ml-5">
+                        <p class="text-primary font-text-medium text-center xl:text-left">UNC Institute for the Environment</p>
+                        <p class="text-dark font-text-regular text-sm mb-4 text-center xl:text-left">The UNC Institute for the Environment
                             fosters and conducts collaborations with faculty, students and staff across the
                             university to identify and solve the world’s environmental challenges and sustain and
                             improve the environment.</p>
@@ -292,17 +291,17 @@
 
             </div>
 
-            <div class="w-1/2 h-48 pl-5 mb-5">
+            <div class="xl:w-1/2 xl:h-48 xl:pl-5 mb-5">
 
-                <div class="flex">
+                <div class="flex flex-col xl:flex-row">
 
-                    <div class="flex-none w-48">
+                    <div class="self-center xl:flex-none w-48 mb-5 xl:mb-0">
                         <img class="w-full object-contain" src="{{ asset('images/Epsilon-Eta.png') }}" alt="">
                     </div>
 
-                    <div class="self-center ml-5">
-                        <p class="text-primary font-text-medium">Epsilon Eta</p>
-                        <p class="text-dark font-text-regular text-sm mb-4">The mission of Epsilon Eta is to recognize
+                    <div class="self-center xl:ml-5">
+                        <p class="text-primary font-text-medium text-center xl:text-left">Epsilon Eta</p>
+                        <p class="text-dark font-text-regular text-sm mb-4 text-center xl:text-left">The mission of Epsilon Eta is to recognize
                             and connect outstanding students, providing them with a network of support
                             and opportunities during and after their academic career.</p>
                     </div>
@@ -311,17 +310,17 @@
 
             </div>
 
-            <div class="w-1/2 h-48 mt-5">
+            <div class="xl:w-1/2 xl:h-48 xl:mt-5">
 
-                <div class="flex">
+                <div class="flex flex-col xl:flex-row">
 
-                    <div class="flex-none w-48">
+                    <div class="self-center xl:flex-none w-48 mb-5 xl:mb-0">
                         <img class="w-full object-contain" src="{{ asset('images/Carolina-Thrift.png') }}" alt="">
                     </div>
 
-                    <div class="self-center ml-5">
-                        <p class="text-primary font-text-medium">Carolina Thrift</p>
-                        <p class="text-dark font-text-regular text-sm mb-4">Carolina Thrift’s mission is to encourage
+                    <div class="self-center xl:ml-5">
+                        <p class="text-primary font-text-medium text-center xl:text-left">Carolina Thrift</p>
+                        <p class="text-dark font-text-regular text-sm mb-4 text-center xl:text-left">Carolina Thrift’s mission is to encourage
                             socially responsible consumerism, provide the UNC-Chapel Hill area financial
                             relief, and build Carolina’s community.</p>
                     </div>

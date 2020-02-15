@@ -259,8 +259,17 @@ https://flickity.metafizzy.co
 **/
 
 .wrapper {
-  margin-right: 10rem;
-  margin-left: 10rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+/* Small (sm) */
+
+@media (min-width: 1280px) {
+  .wrapper {
+    margin-right: 10rem;
+    margin-left: 10rem;
+  }
 }
 
 /**
