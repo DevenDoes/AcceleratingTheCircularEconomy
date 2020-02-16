@@ -1,7 +1,7 @@
 <div class="header py-8">
     <div class="wrapper flex">
         <div class="flex-initial">
-            <a href="/home" class="text-white font-display-medium text-xl shadow-t-lg">Accelerating The Circular Economy</a>
+            <a href="/" class="text-white font-display-medium text-xl shadow-t-lg">Accelerating The Circular Economy</a>
         </div>
         <div class="flex-grow"></div>
         <div class="flex-initial">
