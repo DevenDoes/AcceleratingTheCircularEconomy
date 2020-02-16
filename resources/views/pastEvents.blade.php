@@ -29,23 +29,23 @@
                 data-flickity='{ "cellAlign": "center", "wrapAround": true, "autoPlay": true, "setGallerySize": true}'>
             
                 <div class="carousel-cell w-full xl:w-1/2 xl:px-5">
-                    <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_1.jpg') }}" alt="">
+                    <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_1.JPG') }}" alt="">
                 </div>
             
                 <div class="carousel-cell w-full xl:w-1/2 xl:px-5">
-                    <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_2.jpg') }}" alt="">
+                    <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_2.JPG') }}" alt="">
                 </div>
             
                 <div class="carousel-cell w-full xl:w-1/2 xl:px-5">
-                    <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_3.jpg') }}" alt="">
+                    <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_3.JPG') }}" alt="">
                 </div>
             
                 <div class="carousel-cell w-full xl:w-1/2 xl:px-5">
-                    <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_4.jpg') }}" alt="">
+                    <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_4.JPG') }}" alt="">
                 </div>
             
                 <div class="carousel-cell w-full xl:w-1/2 xl:px-5">
-                    <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_5.jpg') }}" alt="">
+                    <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_5.JPG') }}" alt="">
                 </div>
 
                 <div class="carousel-cell w-full xl:w-1/2 xl:px-5">
@@ -61,11 +61,11 @@
                 </div>
 
                 <div class="carousel-cell w-full xl:w-1/2 xl:px-5">
-                    <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_9.jpg') }}" alt="">
+                    <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_9.JPG') }}" alt="">
                 </div>
 
                 <div class="carousel-cell w-full xl:w-1/2 xl:px-5">
-                    <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_11.jpg') }}" alt="">
+                    <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_11.JPG') }}" alt="">
                 </div>
             
             </div>
