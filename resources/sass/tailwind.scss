@@ -3,3 +3,12 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@responsive {
+  .h-128 {
+    height: 32rem;
+  }
+  .max-h-32 {
+    max-height: 8rem;
+  } 
+}

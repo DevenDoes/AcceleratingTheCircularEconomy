@@ -41,7 +41,7 @@
                 </div>
                 <div class="flex flex-col xl:flex-row mt-4 xl:mt-4">
                     <input class="xl:flex-1 rounded p-2 xl:mr-2 shadow-lg font-text-regular text-dark" type="email" name="email" placeholder="email">
-                    <button class="flex-initial rounded py-2 px-8 mt-4 xl:mt-0 xl:ml-2 bg-primary hover:bg-green-400 text-white font-text-regular shadow-lg">Continue</button>
+                    <button class="SendEmail flex-initial rounded py-2 px-8 mt-4 xl:mt-0 xl:ml-2 bg-primary hover:bg-green-400 text-white font-text-regular shadow-lg">Continue</button>
                 </div>
             </div>
         </div>

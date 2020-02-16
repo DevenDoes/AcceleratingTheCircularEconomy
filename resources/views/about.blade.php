@@ -19,7 +19,7 @@
         economic spectrum. It requires engaging with a company’s entire value chain, including competitors and companies outside
         of one’s sector.</p>
 
-        <p class="text-dark font-text-regular text-sm mb-4">Building on the success of the Accelerating the Circular Economy 2019 event, Accelerating the Circular Economy 2020 will
+        <p class="text-dark font-text-regular text-sm">Building on the success of the Accelerating the Circular Economy 2019 event, Accelerating the Circular Economy 2020 will
         bring together thought leaders and practitioners across industries and functions that bring circularity to life. Through
         inspirational plenaries, interactive breakouts, deep-dive tutorials, networking opportunities and a solutions-focused
         showcase, Accelerating the Circular Economy 2020 will inspire, inform and empower participants to turn circular economy
@@ -35,26 +35,26 @@
 
         <h3 class="text-primary font-text-medium text-center mb-10">Meet the Organizers</h3>
 
-        <div class="flex flex-row mb-10">
+        <div class="flex flex-col xl:flex-row mb-10">
 
-            <div class="flex-none w-48">
+            <div class="flex-none self-center w-48 mb-3 xl:mb-0">
                 <img class="w-full object-contain rounded-full shadow-md" src="{{ asset('images/organizers/Omens.jpeg') }}" alt="">
             </div>
 
-            <div class="flex flex-col self-center ml-10">
+            <div class="flex flex-col self-center xl:ml-10">
 
-                <div class="flex flex-row">
+                <div class="flex flex-col xl:flex-row">
 
                     <div class="flex flex-1 flex-col">
                         <div>
-                            <p class="text-dark font-text-medium">Allie Omens</p>
+                            <p class="text-dark font-text-medium text-center xl:text-left">Allie Omens</p>
                         </div>
                         <div>
-                            <p class="text-dark-secondary font-text-italic text-xs mb-2">President, Epsilon Eta Co-Ed Environmental Honors Society</p>
+                            <p class="text-dark-secondary font-text-italic text-xs mb-3 xl:mb-2 text-center xl:text-left">President, Epsilon Eta Co-Ed Environmental Honors Society</p>
                         </div>
                     </div>
 
-                    <div class="flex flex-none flex-row self-center">
+                    <div class="flex flex-none flex-row self-center mb-3 xl:mb-0">
 
                         <div>
                             <a href="https://www.epsilonetaunc.com/">
@@ -83,7 +83,7 @@
                 </div>
 
                 <div>
-                    <p class="text-dark font-text-regular text-sm mb-4">Allie is a graduate of the University of North Carolina at Chapel Hill, with degrees in Public Policy and Environmental
+                    <p class="text-dark font-text-regular text-sm text-center xl:text-left">Allie is a graduate of the University of North Carolina at Chapel Hill, with degrees in Public Policy and Environmental
                     Studies. In the winter of 2019, she brought together students in the Co-Ed Environmental Honors Society to plan what
                     would become the inagural Accelerating the Circular Economy event in fall 2019.</p>
                 </div>
@@ -92,27 +92,27 @@
 
         </div>
 
-        <div class="flex flex-row mb-10">
+        <div class="flex flex-col xl:flex-row mb-10">
         
-            <div class="flex-none w-48">
+            <div class="flex-none self-center w-48 mb-3 xl:mb-0">
                 <img class="w-full object-contain rounded-full shadow-md" src="{{ asset('images/organizers/Piehler.jpg') }}"
                     alt="">
             </div>
         
-            <div class="flex flex-col self-center ml-10">
+            <div class="flex flex-col self-center xl:ml-10">
         
-                <div class="flex flex-row">
+                <div class="flex flex-col xl:flex-row">
         
                     <div class="flex flex-1 flex-col">
                         <div>
-                            <p class="text-dark font-text-medium">Michael Piehler</p>
+                            <p class="text-dark font-text-medium text-center xl:text-left">Michael Piehler</p>
                         </div>
                         <div>
-                            <p class="text-dark-secondary font-text-italic text-xs mb-2">Director, UNC Institute for the Environment</p>
+                            <p class="text-dark-secondary font-text-italic text-xs mb-3 xl:mb-2 text-center xl:text-left">Director, UNC Institute for the Environment</p>
                         </div>
                     </div>
         
-                    <div class="flex flex-none flex-row self-center">
+                    <div class="flex flex-none flex-row self-center mb-3 xl:mb-0">
         
                         <div>
                             <a href="https://ie.unc.edu/">
@@ -143,7 +143,7 @@
                 </div>
         
                 <div>
-                    <p class="text-dark font-text-regular text-sm mb-4">Alongside serving as the Director for the UNC Institute for the Environment, Michael Piehler is a professor within the
+                    <p class="text-dark font-text-regular text-sm text-center xl:text-left">Alongside serving as the Director for the UNC Institute for the Environment, Michael Piehler is a professor within the
                     Institute of Marine Sciences. He and the Institute are always seeking student-administration collaboration on projects,
                     such as this conference.</p>
                 </div>
@@ -152,27 +152,27 @@
         
         </div>
 
-        <div class="flex flex-row mb-10">
+        <div class="flex flex-col xl:flex-row">
         
-            <div class="flex-none w-48">
+            <div class="flex-none self-center w-48 mb-3 xl:mb-0">
                 <img class="w-full object-contain rounded-full shadow-md" src="{{ asset('images/organizers/Wall.jpg') }}"
                     alt="">
             </div>
         
-            <div class="flex flex-col self-center ml-10">
+            <div class="flex flex-col self-center xl:ml-10">
         
-                <div class="flex flex-row">
+                <div class="flex flex-col xl:flex-row">
         
                     <div class="flex flex-1 flex-col">
                         <div>
-                            <p class="text-dark font-text-medium">Steve Wall</p>
+                            <p class="text-dark font-text-medium text-center xl:text-left">Steve Wall</p>
                         </div>
                         <div>
-                            <p class="text-dark-secondary font-text-italic text-xs mb-2">Outreach Director, NC Policy Collaboratory</p>
+                            <p class="text-dark-secondary font-text-italic text-xs mb-3 xl:mb-2 text-center xl:text-left">Outreach Director, NC Policy Collaboratory</p>
                         </div>
                     </div>
         
-                    <div class="flex flex-none flex-row self-center">
+                    <div class="flex flex-none flex-row self-center mb-3 xl:mb-0">
         
                         <div>
                             <a href="https://collaboratory.unc.edu/">
@@ -203,7 +203,7 @@
                 </div>
         
                 <div>
-                    <p class="text-dark font-text-regular text-sm mb-4">Steve Wall is a UNC law school alumnus, now serving as the Outreach Director for NC Policy Collaboratory, as well as
+                    <p class="text-dark font-text-regular text-sm text-center xl:text-left">Steve Wall is a UNC law school alumnus, now serving as the Outreach Director for NC Policy Collaboratory, as well as
                     Policy Research Associate at UNC Institute for the Environment. He served as a key mentor on the project and continues
                     to support student efforts relating to the conference.</p>
                 </div>
@@ -222,9 +222,9 @@
 
         <h3 class="text-primary font-text-medium text-center mb-10">Frequently Asked Questions</h3>
 
-        <div class="flex flex-row flex-wrap justify-center">
+        <div class="flex flex-col xl:flex-row flex-wrap justify-center">
 
-            <div class="flex flex-col w-1/2 pr-5 pb-5">
+            <div class="flex flex-col xl:w-1/2 xl:pr-5 pb-10 xl:pb-5">
             
                 <div class="bg-dark rounded-t shadow-md">
                     <p class="text-dark font-text-medium p-5">How do I register?</p>
@@ -236,7 +236,7 @@
             
             </div>
 
-            <div class="flex flex-col w-1/2 pl-5 pb-5">
+            <div class="flex flex-col xl:w-1/2 xl:pl-5 pb-10 xl:pb-5">
             
                 <div class="bg-dark rounded-t shadow-md">
                     <p class="text-dark font-text-medium p-5">I can only stay for part of Circularity 20. Can I share my registration with a colleague?</p>
@@ -248,7 +248,7 @@
             
             </div>
 
-            <div class="flex flex-col w-1/2 pr-5 pt-5">
+            <div class="flex flex-col xl:w-1/2 xl:pr-5 xl:pt-5 pb-10 xl:pb-0">
             
                 <div class="bg-dark rounded-t shadow-md">
                     <p class="text-dark font-text-medium p-5">Are there opportunities to volunteer at the event?</p>
@@ -261,7 +261,7 @@
             
             </div>
 
-            <div class="flex flex-col w-1/2 pl-5 pt-5">
+            <div class="flex flex-col xl:w-1/2 xl:pl-5 xl:pt-5">
             
                 <div class="bg-dark rounded-t shadow-md">
                     <p class="text-dark font-text-medium p-5">What is the refund policy for the forum?</p>
