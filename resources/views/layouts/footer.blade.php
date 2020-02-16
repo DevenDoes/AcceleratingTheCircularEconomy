@@ -4,32 +4,8 @@
             <div class="flex flex-row xl:flex-col justify-center xl:border-white xl:border-l xl:py-1">
                 <a href="/about" class="mx-2 xl:mx-4 xl:my-2 text-white hover:underline font-text-medium">About Us</a>
                 <a href="/pastevents" class="mx-2 xl:mx-4 xl:my-2 text-white hover:underline font-text-medium">Past Events</a>
-                <a href="/contact" class="mx-2 xl:mx-4 xl:my-2 text-white hover:underline font-text-medium">Contact Us</a>
+                <a href="mailto:allieomens@gmail.com?subject=Accelerating%20The%20Circular%20Economy%20Contact" class="mx-2 xl:mx-4 xl:my-2 text-white hover:underline font-text-medium">Contact Us</a>
             </div>
-
-
-
-
-
-
-            <!--
-            <ul class="xl:border-white xl:border-l xl:py-1 flex flex-row flex-wrap xl:flex-col">
-                <li class="w-1/3 xl:w-full text-center xl:text-left xl:mx-4 my-2">
-                    <a href="#" class="text-white hover:underline font-text-medium">About Us</a>
-                </li>
-
-                <li class="mx-4 my-2">
-                    <a href="#" class="text-white hover:underline font-text-medium">Schedule</a>
-                </li>
-
-                <li class="w-1/3 xl:w-full text-center xl:text-left xl:mx-4 my-2">
-                    <a href="#" class="text-white hover:underline font-text-medium">Past Events</a>
-                </li>
-                <li class="w-1/3 xl:w-full text-center xl:text-left xl:mx-4 my-2">
-                    <a href="#" class="text-white hover:underline font-text-medium">Contact Us</a>
-                </li>
-            </ul>
-        -->
         </div>
         <div class="flex-1"></div>
         <div class="flex-initial mt-10 xl:mt-0">
