@@ -25,7 +25,7 @@
     <div class="wrapper my-10">
         <div class="flex-1">
             <p class="text-white font-text-regular text-xs text-center">© Copyright 2019. All rights reserved.</p>
-            <p class="text-white font-text-regular text-xs text-center">Developed by <a class="hover:underline" href="#">DevenDoes</a></p>
+            <p class="text-white font-text-regular text-xs text-center">Developed by <a class="hover:underline" href="https://www.linkedin.com/in/devendoes/">DevenDoes</a></p>
         </div>
     </div>
 </div>
