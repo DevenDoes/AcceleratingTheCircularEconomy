@@ -239,7 +239,7 @@
             <div class="flex flex-col xl:w-1/2 xl:pl-5 pb-10 xl:pb-5">
             
                 <div class="bg-dark rounded-t shadow-md">
-                    <p class="text-dark font-text-medium p-5">I can only stay for part of Circularity 20. Can I share my registration with a colleague?</p>
+                    <p class="text-dark font-text-medium p-5">I can only stay for part of the conference. Can I share my registration with a colleague?</p>
                 </div>
                 
                 <div class="bg-darker rounded-b p-5 shadow-md">
