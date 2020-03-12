@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateEventPersonTable extends Migration
+class CreatePersonablesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,13 @@ class CreateEventPersonTable extends Migration
      */
     public function up()
     {
-        Schema::create('event_person', function (Blueprint $table) {
+        Schema::create('personables', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('event_id');
             $table->unsignedBigInteger('person_id');
+            $table->unsignedBigInteger('personable_id');
+            $table->string('personable_type');
             $table->unsignedInteger('display_order');
             $table->timestamps();
-            $table->foreign('event_id')->references('id')->on('events');
             $table->foreign('person_id')->references('id')->on('people');
         });
     }
@@ -31,6 +31,6 @@ class CreateEventPersonTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('event_person');
+        Schema::dropIfExists('personables');
     }
 }
