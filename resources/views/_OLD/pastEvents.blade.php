@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('_OLD.layouts.app')
 
 @section('header')
 @parent
@@ -27,23 +27,23 @@
 
             <div class="main-carousel h-64 xl:h-128 mb-6"
                 data-flickity='{ "cellAlign": "center", "wrapAround": true, "autoPlay": true, "setGallerySize": true}'>
-            
+
                 <div class="carousel-cell w-full xl:w-1/2 xl:px-5">
                     <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_1.JPG') }}" alt="">
                 </div>
-            
+
                 <div class="carousel-cell w-full xl:w-1/2 xl:px-5">
                     <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_2.JPG') }}" alt="">
                 </div>
-            
+
                 <div class="carousel-cell w-full xl:w-1/2 xl:px-5">
                     <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_3.JPG') }}" alt="">
                 </div>
-            
+
                 <div class="carousel-cell w-full xl:w-1/2 xl:px-5">
                     <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_4.JPG') }}" alt="">
                 </div>
-            
+
                 <div class="carousel-cell w-full xl:w-1/2 xl:px-5">
                     <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_5.JPG') }}" alt="">
                 </div>
@@ -67,7 +67,7 @@
                 <div class="carousel-cell w-full xl:w-1/2 xl:px-5">
                     <img class="object-cover h-64 xl:h-128 w-full shadow-lg rounded" src="{{ asset('images/pastevents/event1_11.JPG') }}" alt="">
                 </div>
-            
+
             </div>
 
             <div class="flex flex-row flex-wrap justify-center">
@@ -75,16 +75,16 @@
                 <div class="w-full xl:w-1/2 xl:pr-5 mt-10">
 
                     <div class="flex flex-col xl:flex-row p-6 bg-dark rounded-lg shadow-md xl:h-64">
-                    
+
                         <div class="flex flex-col self-center">
-                    
+
                             <div class="flex-none w-40 h-40 rounded-full overflow-hidden mb-3 xl:mb-0 mb-3 xl:mb-0">
                                 <img class="h-full object-cover shadow-md" src="{{ asset('images/speakers/Schillo.jpg') }}"
                                     alt="">
                             </div>
-                    
+
                             <div class="flex flex-row self-center xl:mt-2 mb-3 xl:mb-0">
-                    
+
                                 <div>
                                     <a href="https://www.levistrauss.com/">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -96,7 +96,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                                 <div>
                                     <a href="https://www.linkedin.com/in/lizaschillo/">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -108,22 +108,22 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                             </div>
-                    
+
                         </div>
-                    
+
                         <div class="flex flex-col self-center xl:ml-6 xl:h-full justify-center">
-                    
+
                             <div>
                                 <p class="text-dark font-text-medium text-center xl:text-left text-center xl:text-left">Liza B. Schillo</p>
                             </div>
-                    
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-3 xl:mb-2 text-center xl:text-left">Senior Manager, Global Product Sustainability
                                     at Levi Strauss & Co.</p>
                             </div>
-                    
+
                             <div class="xl:max-h-32 xl:overflow-auto">
                                 <p class="text-dark font-text-regular text-sm mb-3 xl:mb-4">Liza Schillo is Senior Manager of Global Product
                                     Sustainability for Levi Strauss & Co. She has been with the company
@@ -136,7 +136,7 @@
                                     product strategy that Liza is formalizing in 2019. In 2018, Liza led the company to adopt new climate
                                     change targets for
                                     LS&Co. and its supply chain.</p>
-                    
+
                                     <p class="text-dark font-text-regular text-sm">Liza holds an MBA and a Master’s Degree in Environmental Management from Duke University, and a Bachelor
                                     of Arts Degree
                                     in Environmental Studies from UNC-Chapel Hill. During her tenure at UNC, Liza identified the need for an
@@ -145,25 +145,25 @@
                                     Epsilon Eta’s
                                     co-founder, Anna Fabiszewski.</p>
                             </div>
-                    
+
                         </div>
-                    
+
                     </div>
 
                 </div>
-                
+
                 <div class="w-full xl:w-1/2 xl:pl-5 mt-10">
 
                     <div class="flex flex-col xl:flex-row p-6 bg-dark rounded-lg shadow-md xl:h-64">
-                    
+
                         <div class="flex flex-col self-center">
-                    
+
                             <div class="flex-none w-40 h-40 rounded-full overflow-hidden mb-3 xl:mb-0 mb-3 xl:mb-0">
                                 <img class="h-full object-cover shadow-md" src="{{ asset('images/speakers/Kure.jpg') }}" alt="">
                             </div>
-                    
+
                             <div class="flex flex-row self-center xl:mt-2 mb-3 xl:mb-0">
-                    
+
                                 <div>
                                     <a href="https://www.parksite.com/">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -175,7 +175,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                                 <div>
                                     <a href="https://www.linkedin.com/in/keirstan-kure/">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -187,44 +187,44 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                             </div>
-                    
+
                         </div>
-                    
+
                         <div class="flex flex-col self-center xl:ml-6 xl:h-full justify-center">
-                    
+
                             <div>
                                 <p class="text-dark font-text-medium text-center xl:text-left text-center xl:text-left">Keirstan Kure</p>
                             </div>
-                    
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-3 xl:mb-2 text-center xl:text-left">Procurement Specialist, Seal the Seasons</p>
                             </div>
-                    
+
                             <div class="xl:max-h-32 xl:overflow-auto">
                                 <p class="text-dark font-text-regular text-sm">Keirstan is a supply chain professional focused on innovative supply chains and technology created to solve complex
                                 sustainability problems and grow businesses. She is a collaborative and resourceful team-player who strives to go above
                                 and beyond for the customer.</p>
                             </div>
-                    
+
                         </div>
-                    
+
                     </div>
                 </div>
-                
+
                 <div class="w-full xl:w-1/2 xl:pr-5 mt-10">
 
                     <div class="flex flex-col xl:flex-row p-6 bg-dark rounded-lg shadow-md xl:h-64">
-                    
+
                         <div class="flex flex-col self-center">
-                    
+
                             <div class="flex-none w-40 h-40 rounded-full overflow-hidden mb-3 xl:mb-0">
                                 <img class="h-full object-cover shadow-md" src="{{ asset('images/speakers/Reposa.jpeg') }}" alt="">
                             </div>
-                    
+
                             <div class="flex flex-row self-center xl:mt-2 mb-3 xl:mb-0">
-                    
+
                                 <div>
                                     <a href="https://groundedupcycling.com/?fbclid=IwAR1GX8MHhgjtb2i4Xxpl0Ad92lrnT1XEjHe4cCDOdpD9JPKaaVYdgX6jaVA">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -236,7 +236,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                                 <div>
                                     <a href="https://www.linkedin.com/in/preposa/">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -248,43 +248,43 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                             </div>
-                    
+
                         </div>
-                    
+
                         <div class="flex flex-col self-center xl:ml-6 xl:h-full justify-center">
-                    
+
                             <div>
                                 <p class="text-dark font-text-medium text-center xl:text-left">Parker Reposa</p>
                             </div>
-                    
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-3 xl:mb-2 text-center xl:text-left">Co-Founder, Grounded</p>
                             </div>
-                    
+
                             <div class="xl:max-h-32 xl:overflow-auto">
                                 <p class="text-dark font-text-regular text-sm">Parker and Drew aim to address a portion of this massive problem of coffee ground waste in NYC by offering comprehensive
                                 coffee upcycling services to cafes, coffee shops, and other coffee producers. We then “upcycle” the collected material
                                 into a series value-added products using regenerative processing methods.</p>
                             </div>
-                    
+
                         </div>
-                    
+
                     </div>
                 </div>
 
                 <div class="w-full xl:w-1/2 xl:pl-5 mt-10">
                     <div class="flex flex-col xl:flex-row p-6 bg-dark rounded-lg shadow-md xl:h-64">
-                    
+
                         <div class="flex flex-col self-center">
-                    
+
                             <div class="flex-none w-40 h-40 rounded-full overflow-hidden mb-3 xl:mb-0">
                                 <img class="h-full object-cover shadow-md" src="{{ asset('images/speakers/Enyedi.jpg') }}" alt="">
                             </div>
-                    
+
                             <div class="flex flex-row self-center xl:mt-2 mb-3 xl:mb-0">
-                    
+
                                 <div>
                                     <a
                                         href="https://groundedupcycling.com/?fbclid=IwAR1GX8MHhgjtb2i4Xxpl0Ad92lrnT1XEjHe4cCDOdpD9JPKaaVYdgX6jaVA">
@@ -297,7 +297,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                                 <div>
                                     <a href="https://www.linkedin.com/in/drew-enyedi-847863197/">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -309,43 +309,43 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                             </div>
-                    
+
                         </div>
-                    
+
                         <div class="flex flex-col self-center xl:ml-6 xl:h-full justify-center">
-                    
+
                             <div>
                                 <p class="text-dark font-text-medium text-center xl:text-left">Drew Enyedi</p>
                             </div>
-                    
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-3 xl:mb-2 text-center xl:text-left">Co-Founder, Grounded</p>
                             </div>
-                    
+
                             <div class="xl:max-h-32 xl:overflow-auto">
                                 <p class="text-dark font-text-regular text-sm">Parker and Drew aim to address a portion of this massive problem of coffee ground waste in NYC by offering comprehensive
                                 coffee upcycling services to cafes, coffee shops, and other coffee producers. We then “upcycle” the collected material
                                 into a series value-added products using regenerative processing methods.</p>
                             </div>
-                    
+
                         </div>
-                    
+
                     </div>
                 </div>
 
                 <div class="w-full xl:w-1/2 xl:pr-5 mt-10">
                     <div class="flex flex-col xl:flex-row p-6 bg-dark rounded-lg shadow-md xl:h-64">
-                    
+
                         <div class="flex flex-col self-center">
-                    
+
                             <div class="flex-none w-40 h-40 rounded-full overflow-hidden mb-3 xl:mb-0">
                                 <img class="h-full object-cover shadow-md" src="{{ asset('images/speakers/Wilson.jpg') }}" alt="">
                             </div>
-                    
+
                             <div class="flex flex-row self-center xl:mt-2 mb-3 xl:mb-0">
-                    
+
                                 <div>
                                     <a href="https://www.fullsteam.ag/">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -357,7 +357,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                                 <div>
                                     <a href="https://www.linkedin.com/in/fullsteam/">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -369,44 +369,44 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                             </div>
-                    
+
                         </div>
-                    
+
                         <div class="flex flex-col self-center xl:ml-6 xl:h-full justify-center">
-                    
+
                             <div>
                                 <p class="text-dark font-text-medium text-center xl:text-left">Sean Wilson</p>
                             </div>
-                    
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-3 xl:mb-2 text-center xl:text-left">CEO, Fullsteam Brewery</p>
                             </div>
-                    
+
                             <div class="xl:max-h-32 xl:overflow-auto">
                                 <p class="text-dark font-text-regular text-sm">Sean is a beer enthusiast and localist advocate. His passion for fermentation lead him to Fullsteam Brewery where he
                                 saves locally sourced produce from the landfill by using "ugly" fruits and veggies in his delicious creations. He leads
                                 his company according to the core tenents: think like an optimist, seek truth and beauty; speak with quiet confidence
                                 listen with empathy; be present, productive, and fun!</p>
                             </div>
-                    
+
                         </div>
-                    
+
                     </div>
                 </div>
 
                 <div class="w-full xl:w-1/2 xl:pl-5 mt-10">
                     <div class="flex flex-col xl:flex-row p-6 bg-dark rounded-lg shadow-md xl:h-64">
-                    
+
                         <div class="flex flex-col self-center">
-                    
+
                             <div class="flex-none w-40 h-40 rounded-full overflow-hidden mb-3 xl:mb-0">
                                 <img class="h-full object-cover shadow-md" src="{{ asset('images/speakers/Schwarze.jpeg') }}" alt="">
                             </div>
-                    
+
                             <div class="flex flex-row self-center xl:mt-2 mb-3 xl:mb-0">
-                    
+
                                 <div>
                                     <a href="https://recyclingpartnership.org/">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -418,7 +418,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                                 <div>
                                     <a href="https://www.linkedin.com/in/charlieschwarze/">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -430,43 +430,43 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                             </div>
-                    
+
                         </div>
-                    
+
                         <div class="flex flex-col self-center xl:ml-6 xl:h-full justify-center">
-                    
+
                             <div>
                                 <p class="text-dark font-text-medium text-center xl:text-left">Charlie Schwarze</p>
                             </div>
-                    
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-3 xl:mb-2 text-center xl:text-left">Director of Corporate Development, The Recycling Partnership</p>
                             </div>
-                    
+
                             <div class="xl:max-h-32 xl:overflow-auto">
                                 <p class="text-dark font-text-regular text-sm">Charles cares most deeply about providing tangible solutions to address the issues of climate change and plastic
                                 pollution. He helps businesses understand the value and risk associated with investing in solutions to reduce the impact
                                 of their plastic and carbon footprints.</p>
                             </div>
-                    
+
                         </div>
-                    
+
                     </div>
                 </div>
 
                 <div class="w-full xl:w-1/2 xl:pr-5 mt-10">
                     <div class="flex flex-col xl:flex-row p-6 bg-dark rounded-lg shadow-md xl:h-64">
-                    
+
                         <div class="flex flex-col self-center">
-                    
+
                             <div class="flex-none w-40 h-40 rounded-full overflow-hidden mb-3 xl:mb-0">
                                 <img class="h-full object-cover shadow-md" src="{{ asset('images/speakers/Williams.jpeg') }}" alt="">
                             </div>
-                    
+
                             <div class="flex flex-row self-center xl:mt-2 mb-3 xl:mb-0">
-                    
+
                                 <div>
                                     <a href="https://charlottenc.gov/SWS/About/Pages/Solid-Waste-Leadership-Team.aspx">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -478,7 +478,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                                 <div>
                                     <a href="https://www.linkedin.com/in/brandiwilliamsapr/">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -490,44 +490,44 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                             </div>
-                    
+
                         </div>
-                    
+
                         <div class="flex flex-col self-center xl:ml-6 xl:h-full justify-center">
-                    
+
                             <div>
                                 <p class="text-dark font-text-medium text-center xl:text-left">Brandi Williams</p>
                             </div>
-                    
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-3 xl:mb-2 text-center xl:text-left">Community Affairs Manager, City of Charlotte Solid Waste Services</p>
                             </div>
-                    
+
                             <div class="xl:max-h-32 xl:overflow-auto">
                                 <p class="text-dark font-text-regular text-sm">Brandi N. Williams is an Accredited public relations professional and mental health advocate. The bicentennial baby, and
                                 hip hop music lover uses her formal training in public relations and nearly two decades of experience in non-profit and
                                 government to advocate for social, environmental and health causes; bridge the divide between the streets and the
                                 suites; and develop innovative solutions to communities’ most complex problems.</p>
                             </div>
-                    
+
                         </div>
-                    
+
                     </div>
                 </div>
 
                 <div class="w-full xl:w-1/2 xl:pl-5 mt-10">
                     <div class="flex flex-col xl:flex-row p-6 bg-dark rounded-lg shadow-md xl:h-64">
-                    
+
                         <div class="flex flex-col self-center">
-                    
+
                             <div class="flex-none w-40 h-40 rounded-full overflow-hidden mb-3 xl:mb-0">
                                 <img class="h-full object-cover shadow-md" src="{{ asset('images/speakers/Leonas.png') }}" alt="">
                             </div>
-                    
+
                             <div class="flex flex-row self-center xl:mt-2 mb-3 xl:mb-0">
-                    
+
                                 <div>
                                     <a href="https://textiles.ncsu.edu/directory/people/kleonas">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -539,7 +539,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                                 <div>
                                     <a href="https://www.linkedin.com/in/karen-leonas-4a876b5/">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -551,43 +551,43 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                             </div>
-                    
+
                         </div>
-                    
+
                         <div class="flex flex-col self-center xl:ml-6 xl:h-full justify-center">
-                    
+
                             <div>
                                 <p class="text-dark font-text-medium text-center xl:text-left">Dr. Karen Leonas</p>
                             </div>
-                    
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-3 xl:mb-2 text-center xl:text-left">Professor, Wilson College of Textiles (NCSU)</p>
                             </div>
-                    
+
                             <div class="xl:max-h-32 xl:overflow-auto">
                                 <p class="text-dark font-text-regular text-sm">Dr. Karen Leonas is a member of the graduate faculty in Textile Technology Management, Fiber and Polymer Sciences, and
                                 Textile Chemistry. Dr. Leonas teaches a variety of classes including an introductory class, The Textile Industry, and
                                 graduate courses in Sustainability and Textile Technology Management.</p>
                             </div>
-                    
+
                         </div>
-                    
+
                     </div>
                 </div>
 
                 <div class="w-full xl:w-1/2 mt-10">
                     <div class="flex flex-col xl:flex-row p-6 bg-dark rounded-lg shadow-md xl:h-64">
-                    
+
                         <div class="flex flex-col self-center">
-                    
+
                             <div class="flex-none w-40 h-40 rounded-full overflow-hidden mb-3 xl:mb-0">
                                 <img class="h-full object-cover shadow-md" src="{{ asset('images/speakers/Neville.jpg') }}" alt="">
                             </div>
-                    
+
                             <div class="flex flex-row self-center xl:mt-2 mb-3 xl:mb-0">
-                    
+
                                 <div>
                                     <a href="https://rebornclothing.co/">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -599,7 +599,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                                 <div>
                                     <a href="https://www.linkedin.com/in/emily-neville-3a1a50126/">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -611,29 +611,29 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                             </div>
-                    
+
                         </div>
-                    
+
                         <div class="flex flex-col self-center xl:ml-6 xl:h-full justify-center xl:h-full justify-center">
-                    
+
                             <div>
                                 <p class="text-dark font-text-medium text-center xl:text-left">Emily Neville</p>
                             </div>
-                    
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-3 xl:mb-2 text-center xl:text-left">Founder and CEO, Reborn Clothing</p>
                             </div>
-                    
+
                             <div class="xl:max-h-32 xl:overflow-auto">
                                 <p class="text-dark font-text-regular text-sm">Emily is an innovator who started Reborn Clothing Co. in the fall of 2017 to divert textile waste from landfills and
                                 give consumers an upcycling option for their memorable garments. Today, her company partner with organizations of all
                                 sizes to transform surplus branded apparel and textile waste into higher-value products.</p>
                             </div>
-                    
+
                         </div>
-                    
+
                     </div>
                 </div>
 

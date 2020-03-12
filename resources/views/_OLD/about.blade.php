@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('_OLD.layouts.app')
 
 @section('header')
 @parent
@@ -93,16 +93,16 @@
         </div>
 
         <div class="flex flex-col xl:flex-row mb-10">
-        
+
             <div class="flex-none self-center w-48 mb-3 xl:mb-0">
                 <img class="w-full object-contain rounded-full shadow-md" src="{{ asset('images/organizers/Piehler.jpg') }}"
                     alt="">
             </div>
-        
+
             <div class="flex flex-col self-center xl:ml-10">
-        
+
                 <div class="flex flex-col xl:flex-row">
-        
+
                     <div class="flex flex-1 flex-col">
                         <div>
                             <p class="text-dark font-text-medium text-center xl:text-left">Michael Piehler</p>
@@ -111,9 +111,9 @@
                             <p class="text-dark-secondary font-text-italic text-xs mb-3 xl:mb-2 text-center xl:text-left">Director, UNC Institute for the Environment</p>
                         </div>
                     </div>
-        
+
                     <div class="flex flex-none flex-row self-center mb-3 xl:mb-0">
-        
+
                         <div>
                             <a href="https://ie.unc.edu/">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -125,7 +125,7 @@
                                 </svg>
                             </a>
                         </div>
-        
+
                         <div>
                             <a href="https://www.linkedin.com/in/michael-piehler-1a547039/">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -137,32 +137,32 @@
                                 </svg>
                             </a>
                         </div>
-        
+
                     </div>
-        
+
                 </div>
-        
+
                 <div>
                     <p class="text-dark font-text-regular text-sm text-center xl:text-left">Alongside serving as the Director for the UNC Institute for the Environment, Michael Piehler is a professor within the
                     Institute of Marine Sciences. He and the Institute are always seeking student-administration collaboration on projects,
                     such as this conference.</p>
                 </div>
-        
+
             </div>
-        
+
         </div>
 
         <div class="flex flex-col xl:flex-row">
-        
+
             <div class="flex-none self-center w-48 mb-3 xl:mb-0">
                 <img class="w-full object-contain rounded-full shadow-md" src="{{ asset('images/organizers/Wall.jpg') }}"
                     alt="">
             </div>
-        
+
             <div class="flex flex-col self-center xl:ml-10">
-        
+
                 <div class="flex flex-col xl:flex-row">
-        
+
                     <div class="flex flex-1 flex-col">
                         <div>
                             <p class="text-dark font-text-medium text-center xl:text-left">Steve Wall</p>
@@ -171,9 +171,9 @@
                             <p class="text-dark-secondary font-text-italic text-xs mb-3 xl:mb-2 text-center xl:text-left">Outreach Director, NC Policy Collaboratory</p>
                         </div>
                     </div>
-        
+
                     <div class="flex flex-none flex-row self-center mb-3 xl:mb-0">
-        
+
                         <div>
                             <a href="https://collaboratory.unc.edu/">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -185,7 +185,7 @@
                                 </svg>
                             </a>
                         </div>
-        
+
                         <div>
                             <a href="https://www.linkedin.com/in/steve-wall-1b826a86/">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -197,19 +197,19 @@
                                 </svg>
                             </a>
                         </div>
-        
+
                     </div>
-        
+
                 </div>
-        
+
                 <div>
                     <p class="text-dark font-text-regular text-sm text-center xl:text-left">Steve Wall is a UNC law school alumnus, now serving as the Outreach Director for NC Policy Collaboratory, as well as
                     Policy Research Associate at UNC Institute for the Environment. He served as a key mentor on the project and continues
                     to support student efforts relating to the conference.</p>
                 </div>
-        
+
             </div>
-        
+
         </div>
 
     </div>
@@ -225,54 +225,54 @@
         <div class="flex flex-col xl:flex-row flex-wrap justify-center">
 
             <div class="flex flex-col xl:w-1/2 xl:pr-5 pb-10 xl:pb-5">
-            
+
                 <div class="bg-dark rounded-t shadow-md">
                     <p class="text-dark font-text-medium p-5">How do I register?</p>
                 </div>
-            
+
                 <div class="bg-darker rounded-b p-5 shadow-md">
                     <p class="text-light font-text-regular text-sm">Registration will open in May 2020.</p>
                 </div>
-            
+
             </div>
 
             <div class="flex flex-col xl:w-1/2 xl:pl-5 pb-10 xl:pb-5">
-            
+
                 <div class="bg-dark rounded-t shadow-md">
                     <p class="text-dark font-text-medium p-5">I can only stay for part of the conference. Can I share my registration with a colleague?</p>
                 </div>
-                
+
                 <div class="bg-darker rounded-b p-5 shadow-md">
                     <p class="text-light font-text-regular text-sm">No, one registration may not be shared by multiple people.</p>
                 </div>
-            
+
             </div>
 
             <div class="flex flex-col xl:w-1/2 xl:pr-5 xl:pt-5 pb-10 xl:pb-0">
-            
+
                 <div class="bg-dark rounded-t shadow-md">
                     <p class="text-dark font-text-medium p-5">Are there opportunities to volunteer at the event?</p>
                 </div>
-                
+
                 <div class="bg-darker rounded-b p-5 shadow-md">
                     <p class="text-light font-text-regular text-sm">Yes. We offer a limited number of volunteer positions to graduate and undergraduate students. Volunteer application will
                     be posted in early 2020.</p>
                 </div>
-            
+
             </div>
 
             <div class="flex flex-col xl:w-1/2 xl:pl-5 xl:pt-5">
-            
+
                 <div class="bg-dark rounded-t shadow-md">
                     <p class="text-dark font-text-medium p-5">What is the refund policy for the forum?</p>
                 </div>
-            
+
                 <div class="bg-darker rounded-b p-5 shadow-md">
                     <p class="text-light font-text-regular text-sm">Registration for the forum is non-refundable. However, if you register but are unable to attend, we are happy to
                     transfer your registration to a colleague or apply the amount you paid to a future Accelerating the Circular Economy
                     event. Please contact epetaunc@gmail.com if you need to cancel or transfer your registration.</p>
                 </div>
-            
+
             </div>
 
         </div>

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('_OLD.layouts.app')
 
 @section('header')
 <div class="header pt-10 pb-20">
@@ -16,7 +16,7 @@
             <div id="mainNav" class="overlay">
                 <!-- Button to close the overlay navigation -->
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            
+
                 <!-- Overlay content -->
                 <div class="overlay-content">
                     <a href="/about" class="text-white hover:underline font-text-medium">About Us</a>

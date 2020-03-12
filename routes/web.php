@@ -11,18 +11,47 @@
 |
 */
 
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', 'HomeController@index');
+Route::get('/', 'HomeController@index');
+
+
+Route::get('/about', 'AboutController@index');
+
+
+Route::get('/schedule', 'ScheduleController@index');
+
+
+Route::get('/events', 'EventsController@index');
+
+
+Route::get('/contact', 'ContactController@index');
+
+
+Route::get('/register', 'RegisterController@index');
+
+
+
+
+
+
+
 Route::get('/', function () {
-    return view('home');
+    return view('public.home');
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('public.about');
 });
 
 Route::get('/schedule', function() {
-    return view('schedule');
+    return view('public.schedule');
 });
 
 Route::get('/pastevents', function () {
-    return view('pastEvents');
+    return view('public.events');
 });
+
+Auth::routes();

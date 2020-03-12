@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('_OLD.layouts.app')
 
 @section('header')
 @parent
@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="flex flex-col border-l border-solid border-gray-700 pl-10 pt-2 pb-5">
-                
+
                     <p class="text-dark font-text-medium">Sustainable Packaging Keynote</p>
 
                     <p class="text-dark font-text-regular text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
@@ -46,7 +46,7 @@
                             </div>
 
                             <div class="flex flex-row self-center mt-2">
-                                
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -58,7 +58,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                                
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square"
@@ -70,7 +70,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                                
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -113,16 +113,16 @@
                     </div>
 
                     <div class="flex flex-row p-6 bg-dark rounded-lg shadow-md mt-5">
-                    
+
                         <div class="flex flex-col">
-                    
+
                             <div class="flex-none w-40">
                                 <img class="w-full object-contain rounded-full shadow-md" src="{{ asset('images/Sean-Wilson.jpg') }}"
                                     alt="">
                             </div>
-                    
+
                             <div class="flex flex-row self-center mt-2">
-                    
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -134,7 +134,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square"
@@ -146,7 +146,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -158,21 +158,21 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                             </div>
-                    
+
                         </div>
-                    
+
                         <div class="flex flex-col self-center ml-6">
-                    
+
                             <div>
                                 <p class="text-dark font-text-medium">John Doe</p>
                             </div>
-                    
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-2">Director of Sponsors</p>
                             </div>
-                    
+
                             <div>
                                 <p class="text-dark font-text-regular text-sm mb-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
                                     sed diam nonumy eirmod tempor invidunt ut labore et dolore
@@ -183,22 +183,22 @@
                                     elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
                                     voluptua. At vero eos</p>
                             </div>
-                    
+
                         </div>
-                    
+
                     </div>
 
                     <div class="flex flex-row p-6 bg-dark rounded-lg shadow-md mt-5">
-                    
+
                         <div class="flex flex-col">
-                    
+
                             <div class="flex-none w-40">
                                 <img class="w-full object-contain rounded-full shadow-md" src="{{ asset('images/Sean-Wilson.jpg') }}"
                                     alt="">
                             </div>
-                    
+
                             <div class="flex flex-row self-center mt-2">
-                    
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -210,7 +210,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square"
@@ -222,7 +222,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -234,21 +234,21 @@
                                         </svg>
                                     </a>
                                 </div>
-                    
+
                             </div>
-                    
+
                         </div>
-                    
+
                         <div class="flex flex-col self-center ml-6">
-                    
+
                             <div>
                                 <p class="text-dark font-text-medium">John Doe</p>
                             </div>
-                    
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-2">Director of Sponsors</p>
                             </div>
-                    
+
                             <div>
                                 <p class="text-dark font-text-regular text-sm mb-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
                                     sed diam nonumy eirmod tempor invidunt ut labore et dolore
@@ -259,25 +259,25 @@
                                     elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
                                     voluptua. At vero eos</p>
                             </div>
-                    
+
                         </div>
-                    
+
                     </div>
-                
-                </div>                
+
+                </div>
 
             </div>
 
             <div class="flex flex-row mb-10">
-            
+
                 <div class="flex-none mr-5 pt-2">
                     <p class="font-text-italic">9:00 am</p>
                 </div>
-            
+
                 <div class="flex flex-col border-l border-solid border-gray-700 pl-10 pt-2 pb-5">
-            
+
                     <p class="text-dark font-text-medium">Sustainable Packaging Keynote</p>
-            
+
                     <p class="text-dark font-text-regular text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
                         nonumy eirmod tempor invidunt ut labore et dolore
                         magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
@@ -301,18 +301,18 @@
                         amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
                         labore et
                         dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-            
+
                     <div class="flex flex-row p-6 bg-dark rounded-lg shadow-md mt-5">
-            
+
                         <div class="flex flex-col">
-            
+
                             <div class="flex-none w-40">
                                 <img class="w-full object-contain rounded-full shadow-md"
                                     src="{{ asset('images/Sean-Wilson.jpg') }}" alt="">
                             </div>
-            
+
                             <div class="flex flex-row self-center mt-2">
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -324,7 +324,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square"
@@ -336,7 +336,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -348,21 +348,21 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                             </div>
-            
+
                         </div>
-            
+
                         <div class="flex flex-col self-center ml-6">
-            
+
                             <div>
                                 <p class="text-dark font-text-medium">John Doe</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-2">Director of Sponsors</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark font-text-regular text-sm mb-4">Lorem ipsum dolor sit amet, consetetur
                                     sadipscing elitr,
@@ -375,22 +375,22 @@
                                     elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
                                     voluptua. At vero eos</p>
                             </div>
-            
+
                         </div>
-            
+
                     </div>
-            
+
                     <div class="flex flex-row p-6 bg-dark rounded-lg shadow-md mt-5">
-            
+
                         <div class="flex flex-col">
-            
+
                             <div class="flex-none w-40">
                                 <img class="w-full object-contain rounded-full shadow-md"
                                     src="{{ asset('images/Sean-Wilson.jpg') }}" alt="">
                             </div>
-            
+
                             <div class="flex flex-row self-center mt-2">
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -402,7 +402,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square"
@@ -414,7 +414,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -426,21 +426,21 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                             </div>
-            
+
                         </div>
-            
+
                         <div class="flex flex-col self-center ml-6">
-            
+
                             <div>
                                 <p class="text-dark font-text-medium">John Doe</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-2">Director of Sponsors</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark font-text-regular text-sm mb-4">Lorem ipsum dolor sit amet, consetetur
                                     sadipscing elitr,
@@ -453,22 +453,22 @@
                                     elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
                                     voluptua. At vero eos</p>
                             </div>
-            
+
                         </div>
-            
+
                     </div>
-            
+
                     <div class="flex flex-row p-6 bg-dark rounded-lg shadow-md mt-5">
-            
+
                         <div class="flex flex-col">
-            
+
                             <div class="flex-none w-40">
                                 <img class="w-full object-contain rounded-full shadow-md"
                                     src="{{ asset('images/Sean-Wilson.jpg') }}" alt="">
                             </div>
-            
+
                             <div class="flex flex-row self-center mt-2">
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -480,7 +480,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square"
@@ -492,7 +492,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -504,21 +504,21 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                             </div>
-            
+
                         </div>
-            
+
                         <div class="flex flex-col self-center ml-6">
-            
+
                             <div>
                                 <p class="text-dark font-text-medium">John Doe</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-2">Director of Sponsors</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark font-text-regular text-sm mb-4">Lorem ipsum dolor sit amet, consetetur
                                     sadipscing elitr,
@@ -531,25 +531,25 @@
                                     elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
                                     voluptua. At vero eos</p>
                             </div>
-            
+
                         </div>
-            
+
                     </div>
-            
+
                 </div>
-            
+
             </div>
 
             <div class="flex flex-row mb-10">
-            
+
                 <div class="flex-none mr-5 pt-2">
                     <p class="font-text-italic">9:00 am</p>
                 </div>
-            
+
                 <div class="flex flex-col border-l border-solid border-gray-700 pl-10 pt-2 pb-5">
-            
+
                     <p class="text-dark font-text-medium">Sustainable Packaging Keynote</p>
-            
+
                     <p class="text-dark font-text-regular text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
                         nonumy eirmod tempor invidunt ut labore et dolore
                         magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
@@ -573,18 +573,18 @@
                         amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
                         labore et
                         dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-            
+
                     <div class="flex flex-row p-6 bg-dark rounded-lg shadow-md mt-5">
-            
+
                         <div class="flex flex-col">
-            
+
                             <div class="flex-none w-40">
                                 <img class="w-full object-contain rounded-full shadow-md"
                                     src="{{ asset('images/Sean-Wilson.jpg') }}" alt="">
                             </div>
-            
+
                             <div class="flex flex-row self-center mt-2">
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -596,7 +596,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square"
@@ -608,7 +608,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -620,21 +620,21 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                             </div>
-            
+
                         </div>
-            
+
                         <div class="flex flex-col self-center ml-6">
-            
+
                             <div>
                                 <p class="text-dark font-text-medium">John Doe</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-2">Director of Sponsors</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark font-text-regular text-sm mb-4">Lorem ipsum dolor sit amet, consetetur
                                     sadipscing elitr,
@@ -647,22 +647,22 @@
                                     elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
                                     voluptua. At vero eos</p>
                             </div>
-            
+
                         </div>
-            
+
                     </div>
-            
+
                     <div class="flex flex-row p-6 bg-dark rounded-lg shadow-md mt-5">
-            
+
                         <div class="flex flex-col">
-            
+
                             <div class="flex-none w-40">
                                 <img class="w-full object-contain rounded-full shadow-md"
                                     src="{{ asset('images/Sean-Wilson.jpg') }}" alt="">
                             </div>
-            
+
                             <div class="flex flex-row self-center mt-2">
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -674,7 +674,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square"
@@ -686,7 +686,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -698,21 +698,21 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                             </div>
-            
+
                         </div>
-            
+
                         <div class="flex flex-col self-center ml-6">
-            
+
                             <div>
                                 <p class="text-dark font-text-medium">John Doe</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-2">Director of Sponsors</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark font-text-regular text-sm mb-4">Lorem ipsum dolor sit amet, consetetur
                                     sadipscing elitr,
@@ -725,22 +725,22 @@
                                     elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
                                     voluptua. At vero eos</p>
                             </div>
-            
+
                         </div>
-            
+
                     </div>
-            
+
                     <div class="flex flex-row p-6 bg-dark rounded-lg shadow-md mt-5">
-            
+
                         <div class="flex flex-col">
-            
+
                             <div class="flex-none w-40">
                                 <img class="w-full object-contain rounded-full shadow-md"
                                     src="{{ asset('images/Sean-Wilson.jpg') }}" alt="">
                             </div>
-            
+
                             <div class="flex flex-row self-center mt-2">
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -752,7 +752,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square"
@@ -764,7 +764,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -776,21 +776,21 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                             </div>
-            
+
                         </div>
-            
+
                         <div class="flex flex-col self-center ml-6">
-            
+
                             <div>
                                 <p class="text-dark font-text-medium">John Doe</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-2">Director of Sponsors</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark font-text-regular text-sm mb-4">Lorem ipsum dolor sit amet, consetetur
                                     sadipscing elitr,
@@ -803,13 +803,13 @@
                                     elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
                                     voluptua. At vero eos</p>
                             </div>
-            
+
                         </div>
-            
+
                     </div>
-            
+
                 </div>
-            
+
             </div>
 
         </div>
@@ -823,19 +823,19 @@
     <div class="wrapper">
 
         <h3 class="text-primary font-text-medium text-center mb-10">Tuesday, September 13th</h3>
-        
+
         <div class="flex flex-col">
-        
+
             <div class="flex flex-row mb-10">
-        
+
                 <div class="flex-none mr-5 pt-2">
                     <p class="font-text-italic">9:00 am</p>
                 </div>
-        
+
                 <div class="flex flex-col border-l border-solid border-gray-700 pl-10 pt-2 pb-5">
-        
+
                     <p class="text-dark font-text-medium">Sustainable Packaging Keynote</p>
-        
+
                     <p class="text-dark font-text-regular text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                         diam nonumy eirmod tempor invidunt ut labore et dolore
                         magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
@@ -859,18 +859,18 @@
                         amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
                         labore et
                         dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-        
+
                     <div class="flex flex-row p-6 bg-light rounded-lg shadow-md mt-5">
-        
+
                         <div class="flex flex-col">
-        
+
                             <div class="flex-none w-40">
                                 <img class="w-full object-contain rounded-full shadow-md"
                                     src="{{ asset('images/Sean-Wilson.jpg') }}" alt="">
                             </div>
-        
+
                             <div class="flex flex-row self-center mt-2">
-        
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -882,7 +882,7 @@
                                         </svg>
                                     </a>
                                 </div>
-        
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square"
@@ -894,7 +894,7 @@
                                         </svg>
                                     </a>
                                 </div>
-        
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -906,21 +906,21 @@
                                         </svg>
                                     </a>
                                 </div>
-        
+
                             </div>
-        
+
                         </div>
-        
+
                         <div class="flex flex-col self-center ml-6">
-        
+
                             <div>
                                 <p class="text-dark font-text-medium">John Doe</p>
                             </div>
-        
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-2">Director of Sponsors</p>
                             </div>
-        
+
                             <div>
                                 <p class="text-dark font-text-regular text-sm mb-4">Lorem ipsum dolor sit amet, consetetur
                                     sadipscing elitr,
@@ -935,22 +935,22 @@
                                     diam
                                     voluptua. At vero eos</p>
                             </div>
-        
+
                         </div>
-        
+
                     </div>
-        
+
                     <div class="flex flex-row p-6 bg-light rounded-lg shadow-md mt-5">
-        
+
                         <div class="flex flex-col">
-        
+
                             <div class="flex-none w-40">
                                 <img class="w-full object-contain rounded-full shadow-md"
                                     src="{{ asset('images/Sean-Wilson.jpg') }}" alt="">
                             </div>
-        
+
                             <div class="flex flex-row self-center mt-2">
-        
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -962,7 +962,7 @@
                                         </svg>
                                     </a>
                                 </div>
-        
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square"
@@ -974,7 +974,7 @@
                                         </svg>
                                     </a>
                                 </div>
-        
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -986,21 +986,21 @@
                                         </svg>
                                     </a>
                                 </div>
-        
+
                             </div>
-        
+
                         </div>
-        
+
                         <div class="flex flex-col self-center ml-6">
-        
+
                             <div>
                                 <p class="text-dark font-text-medium">John Doe</p>
                             </div>
-        
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-2">Director of Sponsors</p>
                             </div>
-        
+
                             <div>
                                 <p class="text-dark font-text-regular text-sm mb-4">Lorem ipsum dolor sit amet, consetetur
                                     sadipscing elitr,
@@ -1015,22 +1015,22 @@
                                     diam
                                     voluptua. At vero eos</p>
                             </div>
-        
+
                         </div>
-        
+
                     </div>
-        
+
                     <div class="flex flex-row p-6 bg-light rounded-lg shadow-md mt-5">
-        
+
                         <div class="flex flex-col">
-        
+
                             <div class="flex-none w-40">
                                 <img class="w-full object-contain rounded-full shadow-md"
                                     src="{{ asset('images/Sean-Wilson.jpg') }}" alt="">
                             </div>
-        
+
                             <div class="flex flex-row self-center mt-2">
-        
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -1042,7 +1042,7 @@
                                         </svg>
                                     </a>
                                 </div>
-        
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square"
@@ -1054,7 +1054,7 @@
                                         </svg>
                                     </a>
                                 </div>
-        
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -1066,21 +1066,21 @@
                                         </svg>
                                     </a>
                                 </div>
-        
+
                             </div>
-        
+
                         </div>
-        
+
                         <div class="flex flex-col self-center ml-6">
-        
+
                             <div>
                                 <p class="text-dark font-text-medium">John Doe</p>
                             </div>
-        
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-2">Director of Sponsors</p>
                             </div>
-        
+
                             <div>
                                 <p class="text-dark font-text-regular text-sm mb-4">Lorem ipsum dolor sit amet, consetetur
                                     sadipscing elitr,
@@ -1095,25 +1095,25 @@
                                     diam
                                     voluptua. At vero eos</p>
                             </div>
-        
+
                         </div>
-        
+
                     </div>
-        
+
                 </div>
-        
+
             </div>
-        
+
             <div class="flex flex-row mb-10">
-            
+
                 <div class="flex-none mr-5 pt-2">
                     <p class="font-text-italic">9:00 am</p>
                 </div>
-            
+
                 <div class="flex flex-col border-l border-solid border-gray-700 pl-10 pt-2 pb-5">
-            
+
                     <p class="text-dark font-text-medium">Sustainable Packaging Keynote</p>
-            
+
                     <p class="text-dark font-text-regular text-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                         diam nonumy eirmod tempor invidunt ut labore et dolore
                         magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
@@ -1137,18 +1137,18 @@
                         amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
                         labore et
                         dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-            
+
                     <div class="flex flex-row p-6 bg-light rounded-lg shadow-md mt-5">
-            
+
                         <div class="flex flex-col">
-            
+
                             <div class="flex-none w-40">
                                 <img class="w-full object-contain rounded-full shadow-md"
                                     src="{{ asset('images/Sean-Wilson.jpg') }}" alt="">
                             </div>
-            
+
                             <div class="flex flex-row self-center mt-2">
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -1160,7 +1160,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square"
@@ -1172,7 +1172,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -1184,21 +1184,21 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                             </div>
-            
+
                         </div>
-            
+
                         <div class="flex flex-col self-center ml-6">
-            
+
                             <div>
                                 <p class="text-dark font-text-medium">John Doe</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-2">Director of Sponsors</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark font-text-regular text-sm mb-4">Lorem ipsum dolor sit amet, consetetur
                                     sadipscing elitr,
@@ -1213,22 +1213,22 @@
                                     diam
                                     voluptua. At vero eos</p>
                             </div>
-            
+
                         </div>
-            
+
                     </div>
-            
+
                     <div class="flex flex-row p-6 bg-light rounded-lg shadow-md mt-5">
-            
+
                         <div class="flex flex-col">
-            
+
                             <div class="flex-none w-40">
                                 <img class="w-full object-contain rounded-full shadow-md"
                                     src="{{ asset('images/Sean-Wilson.jpg') }}" alt="">
                             </div>
-            
+
                             <div class="flex flex-row self-center mt-2">
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -1240,7 +1240,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square"
@@ -1252,7 +1252,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -1264,21 +1264,21 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                             </div>
-            
+
                         </div>
-            
+
                         <div class="flex flex-col self-center ml-6">
-            
+
                             <div>
                                 <p class="text-dark font-text-medium">John Doe</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-2">Director of Sponsors</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark font-text-regular text-sm mb-4">Lorem ipsum dolor sit amet, consetetur
                                     sadipscing elitr,
@@ -1293,22 +1293,22 @@
                                     diam
                                     voluptua. At vero eos</p>
                             </div>
-            
+
                         </div>
-            
+
                     </div>
-            
+
                     <div class="flex flex-row p-6 bg-light rounded-lg shadow-md mt-5">
-            
+
                         <div class="flex flex-col">
-            
+
                             <div class="flex-none w-40">
                                 <img class="w-full object-contain rounded-full shadow-md"
                                     src="{{ asset('images/Sean-Wilson.jpg') }}" alt="">
                             </div>
-            
+
                             <div class="flex flex-row self-center mt-2">
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
@@ -1320,7 +1320,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square"
@@ -1332,7 +1332,7 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                                 <div>
                                     <a href="#">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"
@@ -1344,21 +1344,21 @@
                                         </svg>
                                     </a>
                                 </div>
-            
+
                             </div>
-            
+
                         </div>
-            
+
                         <div class="flex flex-col self-center ml-6">
-            
+
                             <div>
                                 <p class="text-dark font-text-medium">John Doe</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark-secondary font-text-italic text-xs mb-2">Director of Sponsors</p>
                             </div>
-            
+
                             <div>
                                 <p class="text-dark font-text-regular text-sm mb-4">Lorem ipsum dolor sit amet, consetetur
                                     sadipscing elitr,
@@ -1373,15 +1373,15 @@
                                     diam
                                     voluptua. At vero eos</p>
                             </div>
-            
+
                         </div>
-            
+
                     </div>
-            
+
                 </div>
-            
+
             </div>
-        
+
         </div>
 
     </div>
